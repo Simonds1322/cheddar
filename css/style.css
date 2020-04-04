@@ -14,7 +14,10 @@ body {
   padding: 30px;
   text-align: center;
   background: white;
-  background: #000000 url(images/homeheaderimage.jpg) 100% 100% no-repeat;
+  
+}
+.header-image {
+ background: #000000 url(images/homeheaderimage.jpg) 100% 100% no-repeat;
 }
 
 .header h1 {
