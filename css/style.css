@@ -16,9 +16,6 @@ body {
   background: white;
   
 }
-.header-image {
- background: #000000 url(images/homeheaderimage.jpg) 100% 100% no-repeat;
-}
 
 .header h1 {
   font-size: 50px;
