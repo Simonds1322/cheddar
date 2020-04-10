@@ -1,0 +1,135 @@
+
+body {
+    /*Sets the background color and font choice for the page. */
+    background-color:  #e6ccb3;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+header {
+    
+     /*Centers the text and the header element. It also sets the width properties with percentages so that they will resize with the browser. This helps to maintain a uniform apperance even on smaller screens. */
+    height: 100px;
+    width:  80%;
+    background-color:#993333;
+    color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    margin-left:  10%;
+    margin-right: 10%;   
+    
+
+}
+
+#left-side {
+    
+     /*Sets the  left side div unsuprisingly on the left side of the container div. It is set up to take half
+       of the alloted space in the container div.*/
+    display: inline-block;
+    float: left; 
+    width: 50%;
+        
+    
+}
+
+
+
+#right-side{
+    
+    /*Sets the  right side div unsuprisingly on the right side of the container div. It is set up to take half
+       of the alloted space in the container div.*/
+    display: inline-block;
+    float: right;
+    width: 50%;
+   
+    
+   
+    
+}
+#page-link{
+    
+    /*This selector removes the hyperlink underline and changes the text color. This is for all links outside the nav not including images .*/
+    text-decoration: none;
+    color:  #ff5500;
+   
+
+
+    
+}
+
+#page-link:hover{
+    
+      /*This selector removes the hyperlink underline and changes the text color when someone hovers over the link. This is only for the text portion of the link not the image section. And it only works for links outside the nav.*/
+    text-decoration: none;
+    color: #993333;
+   
+    
+}
+
+#nav-links{
+    
+      /*This selector removes the hyperlink underline and changes the text color. It also bolds the text for easier reading     this soley works for the hyperlinks in the nav. It also spaces out the links in the nav so that they are not on
+        top of each other.*/
+    text-decoration: none;
+    margin-left:  5%;
+    margin-right: 5%; 
+    color: #993333;
+    font-weight: bold;  
+ 
+    
+}
+
+
+
+#container{
+    
+      /*Centers evertything on the page under the header & Nav and above the footer and also centers the text .*/
+    margin-left:  10%;
+    margin-right: 10%;  
+    margin-top: 5%;
+    text-align: center;
+    
+}
+
+img {
+    
+      /*formats all the images on the page to be the same size and to have the same border and shadow effect.*/
+    width: 60%;
+    height: 50%;
+    border: solid 3px;
+    border-radius: 20px;
+    border-color: #993333;
+    box-shadow: 0 5px 9px 0 #595959;
+    margin: 3%;
+    
+}
+
+img:hover {
+    
+     /*formats all the images on the page to be the same size and to have the same border and shadow effect when they are hovered over. It makes the images a little larger so that they pop.*/
+    width: 65%;
+    height: 55%;
+    border: solid 5px;
+    border-radius: 20px;
+    border-color: #993333;
+    box-shadow: 0 7px 12px 0 #595959;
+    margin: 3%;
+    
+}
+
+nav {
+     /*Formatting for the nav. It sets the width and cllor as well as aligns the text for all of the links*/
+    height: 20%;
+    width:  80%;
+    background-color:#ffb366;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left:  10%;
+    margin-right: 10%; 
+    text-align: center;
+     
+  
+    
+}

@@ -1,63 +1,120 @@
-
 <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  
-</head>
-<body>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Basket Shoppe Home</title>
+		<meta name="author" content="Danielle Palmer">
+		<meta name="description" content="CSCI 1710 web design">
+		<meta name="keywords" content="CSCI 1710, web, design">
+        <link rel="stylesheet" href="css/indexstyle.css">
 
-<div class="header">
-  <h1>My Website</h1>
-  <p>It's a new website</p>
-</div>
+		
+		<!--  
+			Author:			Danielle Palmer
+			Date:			04/04/2020
+			Assignment:		Team Project (#Cheddar)
+			Purpose:		#cheddars project assigment. The main web page of the basket shop. 
+		-->		
+	</head>
+    
+    <!-- General Notes: The images and links in this page are all just place holders until I get real images from the client
+         and the site is offically set up in the case of links. 
 
-<div class="topnav">
-  <a href="#">Gallery</a>
-  <a href="#">Store</a>
-  <a href="#">Contact Me</a>
-  <a href="#" style="float:right">blog</a>
-</div>
-
-<div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-  </div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>About Me</h2>
-      <div class="fakeimg" style="height:100px;">Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    </div>
-    <div class="card">
-      <h3>Popular Post</h3>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
-    </div>
-    <div class="card">
-      <h3>Follow Me</h3>
-      <p>Some text..</p>
-    </div>
-  </div>
-</div>
-
-<div class="footer">
-  <h2>Footer</h2>
-</div>
-
-</body>
+        Image Formating: Width: 500 Height: 400 when resized in Gymp
+        To Do List:
+        Design the Nav Bar with CSS
+        Add a splash of spice to the whole lay out
+        Creatw a footer for the  page,
+        add a div above the links with basic welcome info.
+        -->
+    
+    
+    
+    
+    
+	<body>
+        
+        <!--The header display for the page. I really want to look into adding a picture undernwath the text-->
+        <header>
+        
+        <h1>Basket Shoppe</h1>
+        <h3>Homemade Crafts</h3>    
+        
+        </header>
+        
+        
+        <!--anavigation bar for the website. That much like almost evrything on this page links to aother portions of the site-->
+        <nav>
+            
+        <a id="nav-links" href="#">Product Page</a>
+        <a id="nav-links" href="#">Gallery</a>
+        <a id="nav-links" href="#">Comments &amp; Reviews</a>
+        <a id="nav-links" href="#">About Us</a>
+        <a id="nav-links" href="#">Contact Us</a>
+        
+        
+        </nav>
+        
+        
+        <!--This div acts as the container for the rest of the page-->
+        <div id="container">
+            
+             <!--This div acts as the container for the elements on the left side of the web page.-->
+            <div id="left-side">
+                
+                 <!--This bit of code turns the pictures and the headers into links for diffrent store pages. It also
+                     appplys the class css changed where appopriate. All of the codeing from here down does the same thing but links diffrent web pages. This particlau link is for the product page-->
+                <a href="#"  id="page-link">
+                    
+                    <img src="images/StorePage.jpeg" alt="StorePage">
+                    
+                    <h1>Product Page</h1>
+                
+                </a>
+               
+                 <!--An image and header link to the comments page-->
+                <a href="#" id="page-link">
+                    
+                    <img src="images/CommentPage.jpeg" alt="CommentPage">                
+                      <h1 >Comments &amp; Reviews</h1>
+                </a>
+            
+                <!--An image and header link to the contact us page-->
+                 <a href="#" id="page-link">
+                    
+                    <img src="images/SocialMedia.jpeg" alt="SocialMediaPage">                
+                      <h1>Contact Us</h1>
+                </a>
+    
+            
+            </div>
+        
+            
+             <!--This div acts as the container for the elements on the right side of the web page.-->
+            <div id="right-side">
+        
+                 <!--An image and header link to the gallery page-->
+                 <a href="#" id="page-link">
+                    
+                    <img src="images/GalleryPage.jpeg" alt="GalleryPage">                
+                      <h1>Image Gallery</h1>
+                </a>
+                
+                <!--An image and header link to the about us page-->
+                <a href="#" id="page-link">
+                    
+                    <img src="images/AboutMe.jpg" alt="AboutMe">                
+                      <h1>About Us</h1>
+                </a>
+            
+            
+            </div>
+        
+        
+        </div>
+        
+ 
+		
+		<script src="/js/w3c.js"></script>
+	</body>
 </html>
